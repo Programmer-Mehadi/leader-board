@@ -213,19 +213,29 @@ main {
     width: 85%;
   }
   .players,
-  .blogs,
   .courses {
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 20px;
   }
   .player {
-    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .player h3 {
+    margin-left: 0px;
   }
   .blog {
-    column-gap: 5px;
+    row-gap: 5px;
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr;
+  }
+
+  .blogs {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
   }
 }
