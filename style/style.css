@@ -12,7 +12,7 @@ body {
   color: white;
 }
 .header-container {
-  width: 870px;
+  width: 70%;
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@ body {
 /* header section end */
 /* top players start` */
 main {
-  width: 870px;
+  width: 70%;
   margin: 0px auto;
 }
 .top-players-blog {
@@ -221,5 +221,7 @@ main {
   }
   .blog {
     column-gap: 5px;
+    justify-content: center;
+    align-items: center;
   }
 }
