@@ -209,6 +209,9 @@ main {
 /* Lates course section end */
 /* Media query form small device */
 @media screen and (max-width: 688px) {
+  main {
+    width: 85%;
+  }
   .players,
   .blogs,
   .courses {
