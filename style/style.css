@@ -155,10 +155,10 @@ main {
 }
 .course .content .heading {
   margin: 10px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .course .author {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
   color: #ed6b4f;
 }
@@ -199,12 +199,12 @@ main {
   height: 20px;
   margin-right: 5px;
 }
-.hour p {
-  color: #ed6b4f;
-  font-family: "Poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+
+.hour .time {
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
+  color: #ed6b4f;
 }
 /* Lates course section end */
 /* Media query form small device */
